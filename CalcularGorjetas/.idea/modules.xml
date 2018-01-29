@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Calcular Gorjetas.iml" filepath="$PROJECT_DIR$/Calcular Gorjetas.iml" />
+      <module fileurl="file://C:\Users\Tiago\Documents\CodigosAndroid\CalcularGorjetas\Calcular Gorjetas.iml" filepath="C:\Users\Tiago\Documents\CodigosAndroid\CalcularGorjetas\Calcular Gorjetas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalcularGorjetas.iml" filepath="$PROJECT_DIR$/CalcularGorjetas.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Tiago\Documents\CodigosAndroid\CalcularGorjetas\app\app.iml" filepath="C:\Users\Tiago\Documents\CodigosAndroid\CalcularGorjetas\app\app.iml" />
     </modules>
   </component>
 </project>
