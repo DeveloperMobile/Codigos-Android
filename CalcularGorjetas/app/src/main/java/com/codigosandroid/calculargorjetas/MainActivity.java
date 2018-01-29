@@ -11,6 +11,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import com.codigosandroid.utils.utils.AlertUtil;
+
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.Locale;
@@ -56,19 +58,23 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (radioGroup.getCheckedRadioButtonId()) {
                     case R.id.rbDez:
-                        dialog("Total com acréscimo de 10%", "Total: " + format.format(mostrarTotal()) + "\n" +
+                        AlertUtil.alert(MainActivity.this,"Total com acréscimo de 10%", "Total: " + format.format(mostrarTotal()) + "\n" +
                                 "10%: " + format.format(calculaPercentual(.1)) + "\n" +
-                                "Total + 10%: " + format.format(calculaTotal(10)));
+                                "Total + 10%: " + format.format(calculaTotal(10)),
+                                0, android.R.drawable.ic_menu_info_details);
                         break;
                     case R.id.rbQuinze:
-                        dialog("Total com acréscimo de 15%", "Total: " + format.format(mostrarTotal()) + "\n" +
+                        AlertUtil.alert(MainActivity.this,"Total com acréscimo de 15%", "Total: " + format.format(mostrarTotal()) + "\n" +
                                 "15%: " + format.format(calculaPercentual(.15)) + "\n" +
-                                "Total + 15%: " + format.format(calculaTotal(15)));
+                                "Total + 15%: " + format.format(calculaTotal(15)),
+                                0, android.R.drawable.ic_menu_info_details);
                         break;
                     case R.id.rbVinte:
-                        dialog("Total com acréscimo de 20%", "Total: " + format.format(mostrarTotal()) + "\n" +
+                        AlertUtil.alert(MainActivity.this,"Total com acréscimo de 20%", "Total: " + format.format(mostrarTotal()) + "\n" +
                                 "20%: " + format.format(calculaPercentual(.20)) + "\n" +
-                                "Total + 20%: " + format.format(calculaTotal(20)));
+                                "Total + 20%: " + format.format(calculaTotal(20)),
+                                0,
+                                android.R.drawable.ic_menu_info_details);
                         break;
                     default: total = 0;
                 }
@@ -83,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         double totalGeral = 0;
 
         switch (percentual) {
-            case 10: totalGeral =  total + calculaPercentual(.1); break;
+            case 10: totalGeral = total + calculaPercentual(.1); break;
             case 15: totalGeral = total + calculaPercentual(.15); break;
             case 20: totalGeral = total + calculaPercentual(.20); break;
         }
@@ -113,17 +119,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return total;
-
-    }
-
-    private void dialog(String titulo, String mensagem) {
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setPositiveButton("OK", null);
-        builder.setTitle(titulo);
-        builder.setMessage(mensagem);
-        builder.setIcon(android.R.drawable.ic_menu_info_details);
-        builder.show();
 
     }
 
