@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.blogspot.codigosandroid.calculadora.R;
-import com.blogspot.codigosandroid.calculadora.utils.AlertUtils;
+import com.codigosandroid.utils.utils.AlertUtil;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -308,11 +308,11 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
             case R.id.bt_sair:
 
-                AlertUtils.alert(getActivity(), "Fechar",
-                        "Deseja realmente fechar a aplicação:", R.string.sim, new AlertUtils.DialogCallback() {
+                AlertUtil.alert(getActivity(), "Fechar",
+                        "Deseja realmente fechar a aplicação:", R.string.sim, new Runnable() {
 
                             @Override
-                            public void dialogcallback() {
+                            public void run() {
 
                                 getActivity().finish();
 
