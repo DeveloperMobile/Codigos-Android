@@ -30,43 +30,21 @@ public class MainFragment extends Fragment implements View.OnClickListener {
     /* String auxiliar para preencher o visor */
     private String aux = null;
 
+    /** É reconmentado utilizar array de objetos ao se trabalhar
+     * com muitos componentes(neste caso ao invés de várias instancias
+     * da classe Button temos dois arrays, um para o teclado numério e
+     * o outro para as operações aritiméticas e demais ações) */
     /* componentes button que para o teclado numérico da calculadora */
-    private Button bt_0;
-    private Button bt_1;
-    private Button bt_2;
-    private Button bt_3;
-    private Button bt_4;
-    private Button bt_5;
-    private Button bt_6;
-    private Button bt_7;
-    private Button bt_8;
-    private Button bt_9;
-
-    /* componente button, para inserir um ponto no visor pra operações
-     * com números decimais */
-    private Button bt_ponto;
-
-    /* componentes button para realizar as as quatro operações matemáticas */
-    private Button bt_soma;
-    private Button bt_subt;
-    private Button bt_multi;
-    private Button bt_divi;
-
-    /* componente button para gerar o resultado */
-    private Button bt_igual;
-
-    /* componente button para limpar o visor da calculadora */
-    private Button bt_limpar;
-
-    /* componente button que fecha o aplicativo */
-    private Button bt_sair;
+    private Button[] btn_numericos = new Button[10];
+    /* componentes button para realizar as as quatro operações matemáticas, ponto decimal
+     * limpar, igualdade e sair */
+    private Button[] btn_operacoes = new Button[8];
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_main, container, false);
         inicializar(view);
-        listeners();
         return view;
 
     }
@@ -77,52 +55,40 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
         txt_visor = (EditText) view.findViewById(R.id.txt_visor);
 
-        bt_0 = (Button) view.findViewById(R.id.bt_0);
-        bt_1 = (Button) view.findViewById(R.id.bt_1);
-        bt_2 = (Button) view.findViewById(R.id.bt_2);
-        bt_3 = (Button) view.findViewById(R.id.bt_3);
-        bt_4 = (Button) view.findViewById(R.id.bt_4);
-        bt_5 = (Button) view.findViewById(R.id.bt_5);
-        bt_6 = (Button) view.findViewById(R.id.bt_6);
-        bt_7 = (Button) view.findViewById(R.id.bt_7);
-        bt_8 = (Button) view.findViewById(R.id.bt_8);
-        bt_9 = (Button) view.findViewById(R.id.bt_9);
+        btn_numericos[0] = (Button) view.findViewById(R.id.bt_0);
+        btn_numericos[1] = (Button) view.findViewById(R.id.bt_1);
+        btn_numericos[2] = (Button) view.findViewById(R.id.bt_2);
+        btn_numericos[3] = (Button) view.findViewById(R.id.bt_3);
+        btn_numericos[4] = (Button) view.findViewById(R.id.bt_4);
+        btn_numericos[5] = (Button) view.findViewById(R.id.bt_5);
+        btn_numericos[6] = (Button) view.findViewById(R.id.bt_6);
+        btn_numericos[7] = (Button) view.findViewById(R.id.bt_7);
+        btn_numericos[8] = (Button) view.findViewById(R.id.bt_8);
+        btn_numericos[9] = (Button) view.findViewById(R.id.bt_9);
 
-        bt_soma = (Button) view.findViewById(R.id.bt_soma);
-        bt_subt = (Button) view.findViewById(R.id.bt_subt);
-        bt_multi = (Button) view.findViewById(R.id.bt_multi);
-        bt_divi = (Button) view.findViewById(R.id.bt_divi);
+        btn_operacoes[0] = (Button) view.findViewById(R.id.bt_soma);
+        btn_operacoes[1] = (Button) view.findViewById(R.id.bt_subt);
+        btn_operacoes[2] = (Button) view.findViewById(R.id.bt_multi);
+        btn_operacoes[3] = (Button) view.findViewById(R.id.bt_divi);
+        btn_operacoes[4] = (Button) view.findViewById(R.id.bt_ponto);
+        btn_operacoes[5] = (Button) view.findViewById(R.id.bt_igual);
+        btn_operacoes[6] = (Button) view.findViewById(R.id.bt_limpar);
+        btn_operacoes[7] = (Button) view.findViewById(R.id.bt_sair);
 
-        bt_ponto = (Button) view.findViewById(R.id.bt_ponto);
-        bt_igual = (Button) view.findViewById(R.id.bt_igual);
-        bt_limpar = (Button) view.findViewById(R.id.bt_limpar);
-        bt_sair = (Button) view.findViewById(R.id.bt_sair);
+        listeners();
 
     }
 
 	/* Trata os eventos dos componentes da tela */
     private void listeners() {
 
-        bt_0.setOnClickListener(this);
-        bt_1.setOnClickListener(this);
-        bt_2.setOnClickListener(this);
-        bt_3.setOnClickListener(this);
-        bt_4.setOnClickListener(this);
-        bt_5.setOnClickListener(this);
-        bt_6.setOnClickListener(this);
-        bt_7.setOnClickListener(this);
-        bt_8.setOnClickListener(this);
-        bt_9.setOnClickListener(this);
+        for (int i = 0; i < 10; i++) {
+            btn_numericos[i].setOnClickListener(this);
+        }
 
-        bt_soma.setOnClickListener(this);
-        bt_subt.setOnClickListener(this);
-        bt_multi.setOnClickListener(this);
-        bt_divi.setOnClickListener(this);
-
-        bt_ponto.setOnClickListener(this);
-        bt_limpar.setOnClickListener(this);
-        bt_sair.setOnClickListener(this);
-        bt_igual.setOnClickListener(this);
+        for (int i = 0; i < 8; i++) {
+            btn_operacoes[i].setOnClickListener(this);
+        }
 
     }
 
