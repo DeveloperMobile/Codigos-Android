@@ -1,0 +1,4 @@
+#Tue Jan 30 16:30:29 BRT 2018
+base.0=C\:\\Users\\Tiago\\Documents\\CodigosAndroid\\GaleriaDeIcones\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex
