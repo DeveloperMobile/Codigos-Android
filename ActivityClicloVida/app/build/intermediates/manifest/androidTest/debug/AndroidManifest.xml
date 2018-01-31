@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.app.blog.activityciclovida.test">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="23" />
+
+    <application android:debuggable="true" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="br.app.blog.activityciclovida"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for br.app.blog.activityciclovida"/>
+</manifest>

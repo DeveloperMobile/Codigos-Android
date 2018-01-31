@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActivityCicloVida</string>
+    <string name="btn_ciclo_vida">Exemplo Ciclo de Vida</string>
+    <string name="btn_list_activity">Exemplo ListActivity</string>
+    <string name="btn_list_activity_adapter">Exemplo ListActivityAdapter</string>
+    <string name="btn_abrir_browser">Abrir o browser</string>
+
+</resources>
