@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExemploIntent</string>
+    <string name="btn_abrir_tela">Abrir Tela</string>
+    <string name="btn_abrir_tela_2">Abrir Tela 2</string>
+    <string name="btn_abrir_tela_3">Abrir Tela 3</string>
+    <string name="btn_abrir_browser">Abrir o Browser</string>
+    <string name="btn_ver_contato_agenda">Ver Contato Agenda</string>
+    <string name="btn_ver_agenda">Ver Agenda Contados</string>
+    <string name="btn_fazer_chamada">Fazer Chamada</string>
+    <string name="label_1">Mensagem a ser retornada pela Activity usando uma Intent</string>
+    <string name="layout_1">Tela Exemplo</string>
+    <string name="msg_alerta_permissao">Para utilizar este aplicativo, você precisa aceitar as permissões.</string>
+</resources>

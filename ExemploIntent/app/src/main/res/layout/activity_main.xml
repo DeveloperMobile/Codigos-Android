@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/btn_abrir_tela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_abrir_tela" />
+
+    <Button
+        android:id="@+id/btn_abrir_tela_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_abrir_tela_2" />
+
+    <Button
+        android:id="@+id/btn_abrir_tela_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_abrir_tela_3" />
+    
+    <Button 
+        android:id="@+id/btn_abrir_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_abrir_browser" />
+    
+    <Button
+        android:id="@+id/btn_ver_contato_agenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_ver_contato_agenda" />
+    
+    <Button 
+        android:id="@+id/btn_ver_agenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_ver_agenda" />
+    
+    <Button 
+        android:id="@+id/btn_fazer_chamada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_fazer_chamada" />
+
+</LinearLayout>
