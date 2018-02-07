@@ -2,7 +2,6 @@ package com.codigosandroid.helloservice;
 
 import android.app.Service;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
@@ -11,7 +10,7 @@ import com.codigosandroid.utils.utils.NotificationUtil;
 
 public class MainActivity extends BaseActivity {
 
-    public static final Class<? extends Service> CLS = HelloService.class;
+    public static final Class<? extends Service> CLS = HelloIntentService.class;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
