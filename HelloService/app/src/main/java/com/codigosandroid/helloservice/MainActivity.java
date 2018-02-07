@@ -10,7 +10,7 @@ import com.codigosandroid.utils.utils.NotificationUtil;
 
 public class MainActivity extends BaseActivity {
 
-    public static final Class<? extends Service> CLS = HelloIntentService.class;
+    public static final Class<? extends Service> CLS = HelloService_WorkerThread.class;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
