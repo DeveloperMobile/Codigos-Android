@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Tiago\\CodigosAndroid\\ActivityClicloVida\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tiago\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\251a01746fabc015661bf5585b77bf32\\res\\values-land\\values-land.xml",
+                    "source": "/home/tiago/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7fd09a5b081166e0ba769828bc4e1635/res/values-land/values-land.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,117,189,259,323,394",
-                        "endColumns": "61,71,69,63,70,67",
-                        "endOffsets": "112,184,254,318,389,457"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

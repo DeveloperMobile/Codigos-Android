@@ -1,0 +1,4 @@
+#Mon Nov 12 18:48:51 BRT 2018
+base.0=/home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex

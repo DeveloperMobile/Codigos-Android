@@ -1,101 +1,153 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:2:1-31:12
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\251a01746fabc015661bf5585b77bf32\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c4d0ea2616ffab1a13ed06843d0e9161\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\9681ac96b05f8170016c4e00a4d477cf\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\5ce088cd4ba270a29b5a9adb8a16f0ef\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7fd09a5b081166e0ba769828bc4e1635/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ae8e950a7a9b4d12f920c26007d7342f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1ab98570dc45751dbf050373c75d137d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/bb3325d22843405631444122b02651f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/68c81411c96bcbfa21c476ac2b27df8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b070add4763ef20a5a9b1fd811ca9d8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b5a901e964d142987e379938f61f3a30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/bc0a8b5f36a3a492ccca26c5dac38efe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/54880c71d648ac7233f7b4acc329520c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/dfba188ca69d084ea049eeb18e79f462/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5b05c2eaef8c652c258140af7de8290e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/269b39cf83d55ba5e77d464ea1b1dff5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9720fc2dc55d7ca18279c49c8de51c28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/83eb65a1f7de2c38fa79897d86eeb695/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ab433eb113bfab518f13357c3f3ff375/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/63aa622f4a8636d995e3557022731673/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e4c1d5569ef32317aeff8f867278f70a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1948f806b8f65a0403565bdc2459e700/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e11c00a96036a52695fe10c32b92b99a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/013cba1fd58464c04d3a4afc978f8bdc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bd9721438ac0bffbfe542e6ab048afd2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d348aef9c2b2a8605834781b750d0fe2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0ff76235200d088569e8646c29a88642/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/db7cd4f79c52dc89773a8212a8acc8a5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6a98810a9920c6ba64ce75b3fa6f44a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/93772b075c861fc2f8a14d0cea3e1c69/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:4:5-44
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
-uses-sdk
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\251a01746fabc015661bf5585b77bf32\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\251a01746fabc015661bf5585b77bf32\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c4d0ea2616ffab1a13ed06843d0e9161\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c4d0ea2616ffab1a13ed06843d0e9161\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\9681ac96b05f8170016c4e00a4d477cf\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\9681ac96b05f8170016c4e00a4d477cf\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\5ce088cd4ba270a29b5a9adb8a16f0ef\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\5ce088cd4ba270a29b5a9adb8a16f0ef\AndroidManifest.xml:20:5-43
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:7:5-9:41
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\251a01746fabc015661bf5585b77bf32\AndroidManifest.xml:23:9-75
-	android:targetSdkVersion
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:8:9-34
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:10:5-66
+ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:8:22-64
 application
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:12:5-29:19
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\251a01746fabc015661bf5585b77bf32\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\251a01746fabc015661bf5585b77bf32\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c4d0ea2616ffab1a13ed06843d0e9161\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c4d0ea2616ffab1a13ed06843d0e9161\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\9681ac96b05f8170016c4e00a4d477cf\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\9681ac96b05f8170016c4e00a4d477cf\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\5ce088cd4ba270a29b5a9adb8a16f0ef\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Tiago\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\5ce088cd4ba270a29b5a9adb8a16f0ef\AndroidManifest.xml:22:5-20
+ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:10:5-24:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ab433eb113bfab518f13357c3f3ff375/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ab433eb113bfab518f13357c3f3ff375/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/63aa622f4a8636d995e3557022731673/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/63aa622f4a8636d995e3557022731673/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ab433eb113bfab518f13357c3f3ff375/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:13:9-41
+	tools:ignore
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:15:9-48
 	android:icon
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:14:9-45
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:12:9-45
 	android:allowBackup
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:14:9-40
 activity#br.app.blog.activityciclovida.MainActivity
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:17:9-25:20
-	android:label
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:19:13-45
+ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:17:9-22:20
 	android:name
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:18:13-41
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:20:13-24:29
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:23:27-74
-activity#br.app.blog.activityciclovida.CicloVidaActivity
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:26:9-64
-	android:name
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:26:19-52
-activity#br.app.blog.activityciclovida.ExemploListActivity
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:27:9-66
-	android:name
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:27:19-54
-activity#br.app.blog.activityciclovida.ExemploListActivityAdapter
-ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:28:9-73
-	android:name
-		ADDED from C:\Users\Tiago\CodigosAndroid\ActivityClicloVida\app\src\main\AndroidManifest.xml:28:19-61
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7fd09a5b081166e0ba769828bc4e1635/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7fd09a5b081166e0ba769828bc4e1635/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ae8e950a7a9b4d12f920c26007d7342f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ae8e950a7a9b4d12f920c26007d7342f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1ab98570dc45751dbf050373c75d137d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1ab98570dc45751dbf050373c75d137d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/bb3325d22843405631444122b02651f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/bb3325d22843405631444122b02651f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/68c81411c96bcbfa21c476ac2b27df8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/68c81411c96bcbfa21c476ac2b27df8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b070add4763ef20a5a9b1fd811ca9d8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b070add4763ef20a5a9b1fd811ca9d8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b5a901e964d142987e379938f61f3a30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b5a901e964d142987e379938f61f3a30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/bc0a8b5f36a3a492ccca26c5dac38efe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/bc0a8b5f36a3a492ccca26c5dac38efe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/54880c71d648ac7233f7b4acc329520c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/54880c71d648ac7233f7b4acc329520c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/dfba188ca69d084ea049eeb18e79f462/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/dfba188ca69d084ea049eeb18e79f462/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5b05c2eaef8c652c258140af7de8290e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5b05c2eaef8c652c258140af7de8290e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/269b39cf83d55ba5e77d464ea1b1dff5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/269b39cf83d55ba5e77d464ea1b1dff5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9720fc2dc55d7ca18279c49c8de51c28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9720fc2dc55d7ca18279c49c8de51c28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/83eb65a1f7de2c38fa79897d86eeb695/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/83eb65a1f7de2c38fa79897d86eeb695/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ab433eb113bfab518f13357c3f3ff375/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ab433eb113bfab518f13357c3f3ff375/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/63aa622f4a8636d995e3557022731673/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/63aa622f4a8636d995e3557022731673/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e4c1d5569ef32317aeff8f867278f70a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e4c1d5569ef32317aeff8f867278f70a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1948f806b8f65a0403565bdc2459e700/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1948f806b8f65a0403565bdc2459e700/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e11c00a96036a52695fe10c32b92b99a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e11c00a96036a52695fe10c32b92b99a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/013cba1fd58464c04d3a4afc978f8bdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/013cba1fd58464c04d3a4afc978f8bdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bd9721438ac0bffbfe542e6ab048afd2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bd9721438ac0bffbfe542e6ab048afd2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d348aef9c2b2a8605834781b750d0fe2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d348aef9c2b2a8605834781b750d0fe2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0ff76235200d088569e8646c29a88642/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0ff76235200d088569e8646c29a88642/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/db7cd4f79c52dc89773a8212a8acc8a5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/db7cd4f79c52dc89773a8212a8acc8a5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6a98810a9920c6ba64ce75b3fa6f44a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/tiago/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6a98810a9920c6ba64ce75b3fa6f44a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/93772b075c861fc2f8a14d0cea3e1c69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/tiago/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/93772b075c861fc2f8a14d0cea3e1c69/AndroidManifest.xml:20:5-44
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+		ADDED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/src/main/AndroidManifest.xml

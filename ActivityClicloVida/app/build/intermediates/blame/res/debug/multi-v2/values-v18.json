@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Tiago\\CodigosAndroid\\ActivityClicloVida\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "outputFile": "/home/tiago/Documentos/Programacao/Projetos/Codigos Android Blog/CodigosAndroid/ActivityClicloVida/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tiago\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\251a01746fabc015661bf5585b77bf32\\res\\values-v18\\values-v18.xml",
+                    "source": "/home/tiago/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7fd09a5b081166e0ba769828bc4e1635/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

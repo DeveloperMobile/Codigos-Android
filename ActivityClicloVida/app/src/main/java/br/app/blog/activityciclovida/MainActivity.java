@@ -1,44 +1,73 @@
 package br.app.blog.activityciclovida;
 
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.view.View.OnClickListener;
-import br.app.blog.activityciclovida.R.id;
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 @SuppressLint("NewApi")
-public class MainActivity extends AppCompatActivity implements OnClickListener {
+public class MainActivity extends AppCompatActivity {
+
+	private static final String TAG = "CicloVidaActivity";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		inicializarComponentes();
-	
+		Log.d(TAG, "1.onCreate()");
+
+		Button btnAbrirBrowser = findViewById(R.id.btnAbrirBrowser);
+		btnAbrirBrowser.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Uri uri = Uri.parse("http://www.google.com.br");
+				Intent it = new Intent(Intent.ACTION_VIEW, uri);
+				startActivity(it);
+			}
+		});
+
 	}
 
 	@Override
-	public void onClick(View v) {
-		
-		switch (v.getId()) {
-		
-		case id.btnCicloVida: startActivity(new Intent(this, CicloVidaActivity.class)); break;
-		case id.btnListActivity: startActivity(new Intent(this, ExemploListActivity.class)); break;
-		case id.btnListActivityAdapter: startActivity(new Intent(this, ExemploListActivityAdapter.class)); break;
-		
-		}
-		
+	protected void onStart() {
+		super.onStart();
+		Log.d(TAG, "2.onStart()");
 	}
 
-	private void inicializarComponentes() {
-		
-		findViewById(R.id.btnCicloVida).setOnClickListener(this);
-		findViewById(R.id.btnListActivity).setOnClickListener(this);
-		findViewById(R.id.btnListActivityAdapter).setOnClickListener(this);
-		
+	@Override
+	protected void onResume() {
+		super.onResume();
+		Log.d(TAG, "3.onResume()");
 	}
-	
+
+	@Override
+	protected void onRestart() {
+		super.onRestart();
+		Log.d(TAG, "4.onRestart()");
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+		Log.d(TAG, "5.onPause()");
+	}
+
+	@Override
+	protected void onStop() {
+		super.onStop();
+		Log.d(TAG, "6.onStop()");
+	}
+
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+		Log.d(TAG, "7.onDestroy()");
+	}
+
 }

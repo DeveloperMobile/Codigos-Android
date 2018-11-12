@@ -1,27 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="2dp"
     android:gravity="center" >
-    
-    <Button 
-        android:id="@+id/btnCicloVida"
-        android:layout_width="match_parent"
+
+    <Button
+        android:id="@+id/btnAbrirBrowser"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_ciclo_vida" />
-    
-    <Button 
-        android:id="@+id/btnListActivity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_list_activity" />
-    
-     <Button 
-        android:id="@+id/btnListActivityAdapter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_list_activity" />
+        android:text="@string/btn_abrir_browser" />
 
 </LinearLayout>
