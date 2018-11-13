@@ -28,7 +28,10 @@ public class MainActivity extends AppCompatActivity {
 			public void onClick(View v) {
 				Uri uri = Uri.parse("http://www.google.com.br");
 				Intent it = new Intent(Intent.ACTION_VIEW, uri);
-				startActivity(it);
+				// Verifica se a Intent a ser chamada está disponível
+				if (it.resolveActivity(getPackageManager()) != null) {
+					startActivity(it);
+				}
 			}
 		});
 
